@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS (Animation On Scroll) Library -->
+    <link rel="stylesheet" href="css/aos.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="256x256" href="img/favicon.png" />
+    <title>Usapia Resto</title>
+  </head>
+  <body>
+    <!-- PAGE LOADER START -->
+    <div class="page-loader"></div>
+    <!-- PAGE LOADER END -->
+
+    <!-- HEADER START -->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="logo">
+            <a href="#"><img src="img/logo-usapia.png" alt="logo" /></a>
+          </div>
+          <button type="button" class="btn-nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li class="nav-item"><a href="#home">home</a></li>
+              <li class="nav-item"><a href="#about">about</a></li>
+              <li class="nav-item"><a href="#our-menu">our menu</a></li>
+              <li class="nav-item"><a href="#testimonials">testimonials</a></li>
+              <li class="nav-item"><a href="#team">team</a></li>
+              <li class="nav-item"><a href="#footer">contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HOME SECTION START -->
+    <section class="home-section" id="home">
+      <div class="home-bg"></div>
+      <div class="container">
+        <div class="row min-vh-100 align-items-center">
+          <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Usapia Restaurant</h1>
+            <p>
+              Le meilleur restaurant italien de France. Les recettes sont
+              ancestrales, régionales. Les plats sont faits maison avec des
+              produits frais et de saison. La cuisine italienne au top niveau
+              près de chez vous !
+            </p>
+            <a href="#our-menu" class="btn btn-default">votre menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOME SECTION END -->
+
+    <!-- ABOUT SECTION START -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="nostra storia" data-aos="fade-up">
+              a propos de nous
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="about-text" data-aos="fade-right">
+            <h3>Bienvenue au Restaurant Usapia</h3>
+            <p>
+              Une cuisine familiale, authentique, moderne et inventive vous
+              attend. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Debitis neque perferendis tempore dolor, earum rem cum iste
+              deserunt ad quidem et praesentium rerum explicabo voluptatum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              ducimus modi consequatur consectetur molestias, doloribus
+              provident quia harum beatae ut consequuntur, vel ratione soluta
+              repudiandae inventore dolorum eligendi corporis excepturi.
+            </p>
+            <a href="#our-menu" class="btn btn-default">Voir les menus</a>
+          </div>
+          <div class="about-img" data-aos="fade-left">
+            <div class="img-box">
+              <h3>20+ ans d'expérience</h3>
+              <img src="img/about-img.jpg" alt="about img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- MENU SECTION START -->
+    <section class="menu-section section-padding" id="our-menu">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="commandez maintenant" data-aos="fade-up">
+              votre menu
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="menu-tabs" data-aos="fade-up">
+            <button class="menu-tab-item active" data-target="#lunch">
+              déjeuner
+            </button>
+            <button class="menu-tab-item" data-target="#dinner">dîner</button>
+            <button class="menu-tab-item" data-target="#drinks">
+              boissons
+            </button>
+            <button class="menu-tab-item" data-target="#desserts">
+              desserts
+            </button>
+          </div>
+        </div>
+
+        <div class="row menu-tab-content active" id="lunch">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+              <h3>Menu roma</h3>
+            </div>
+            <div class="menu-item-price">€18.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/2.jpg" alt="menu item thumbnail" />
+              <h3>Menu florence</h3>
+            </div>
+            <div class="menu-item-price">€22.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Menu venise</h3>
+            </div>
+            <div class="menu-item-price">€28.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/4.jpg" alt="menu item thumbnail" />
+              <h3>Menu torcello</h3>
+            </div>
+            <div class="menu-item-price">€30.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/5.jpg" alt="menu item thumbnail" />
+              <h3>Menu bari</h3>
+            </div>
+            <div class="menu-item-price">€34.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/6.jpg" alt="menu item thumbnail" />
+              <h3>Menu capri</h3>
+            </div>
+            <div class="menu-item-price">€40.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/7.jpg" alt="menu item thumbnail" />
+              <h3>Menu lecce</h3>
+            </div>
+            <div class="menu-item-price">€45.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/8.jpg" alt="menu item thumbnail" />
+              <h3>Menu palerme</h3>
+            </div>
+            <div class="menu-item-price">€50.00</div>
+          </div>
+        </div>
+
+        <div class="row menu-tab-content" id="dinner">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+              <h3>Menu sardaigne</h3>
+            </div>
+            <div class="menu-item-price">€50.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/2.jpg" alt="menu item thumbnail" />
+              <h3>Menu sicile</h3>
+            </div>
+            <div class="menu-item-price">€58.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Menu burano</h3>
+            </div>
+            <div class="menu-item-price">€65.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/4.jpg" alt="menu item thumbnail" />
+              <h3>menu ischia</h3>
+            </div>
+            <div class="menu-item-price">€72.00</div>
+          </div>
+        </div>
+
+        <div class="row menu-tab-content" id="drinks">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/11.png" alt="menu item thumbnail" />
+              <h3>corte sant'Alda</h3>
+            </div>
+            <div class="menu-item-price">€110.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/12.png" alt="menu item thumbnail" />
+              <h3>domaine argiano</h3>
+            </div>
+            <div class="menu-item-price">€65.00</div>
+          </div>
+        </div>
+
+        <div class="row menu-tab-content" id="desserts">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/menu/9.png" alt="menu item thumbnail" />
+              <h3>panna cotta</h3>
+            </div>
+            <div class="menu-item-price">€14.00</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/menu/10.png" alt="menu item thumbnail" />
+              <h3>tiramisù</h3>
+            </div>
+            <div class="menu-item-price">€17.00</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MENU SECTION END -->
+
+    <!-- TESTIMONIALS SECTION START -->
+    <section class="testimonials-section section-padding" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="vos avis" data-aos="fade-up">quelques retours</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="testi-item" data-aos="zoom-in">
+            <div class="testi-author">
+              <div class="testi-author-name">
+                <h3>maria carey</h3>
+                <span>critique gastronomique</span>
+              </div>
+              <div class="testi-author-img">
+                <img src="img/testimonials/1.jpg" alt="testi author img" />
+              </div>
+            </div>
+            <p>
+              Une cuisine traditionnelle et authentique. Je me suis délectée le
+              palais avec les différentes sortes de pâtes faites maison. Le
+              personnel est très délicat et sympatique. Je recommande cette
+              maison d'exception.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="testi-item" data-aos="zoom-in">
+            <div class="testi-author">
+              <div class="testi-author-name">
+                <h3>charlize theron</h3>
+                <span>critique gastronomique</span>
+              </div>
+              <div class="testi-author-img">
+                <img src="img/testimonials/2.jpg" alt="testi author img" />
+              </div>
+            </div>
+            <p>
+              Une cuisine traditionnelle et authentique. Je me suis délectée le
+              palais avec les différentes sortes de pâtes faites maison. Le
+              personnel est très délicat et sympatique. Je recommande cette
+              maison d'exception.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="testi-item" data-aos="zoom-in">
+            <div class="testi-author">
+              <div class="testi-author-name">
+                <h3>leonardo di caprio</h3>
+                <span>critique gastronomique</span>
+              </div>
+              <div class="testi-author-img">
+                <img src="img/testimonials/3.jpg" alt="testi author img" />
+              </div>
+            </div>
+            <p>
+              Une cuisine traditionnelle et authentique. Je me suis délectée le
+              palais avec les différentes sortes de pâtes faites maison. Le
+              personnel est très délicat et sympatique. Je recommande cette
+              maison d'exception.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS SECTION END -->
+
+    <!-- TEAM SECTION START -->
+    <section class="team-section section-padding" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="L'Équipe" data-aos="fade-up">nos chefs</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="img/team/1.jpg" alt="team item" />
+            <div class="team-item-info">
+              <h3>usapia capelone</h3>
+              <p>chef</p>
+            </div>
+          </div>
+          <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="img/team/2.jpg" alt="team item" />
+            <div class="team-item-info">
+              <h3>angelo capelone</h3>
+              <p>chef adjoint</p>
+            </div>
+          </div>
+          <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="img/team/3.jpg" alt="team item" />
+            <div class="team-item-info">
+              <h3>angelina capelone</h3>
+              <p>chef pâtissière</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TEAM SECTION END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-item" data-aos="fade-up">
+            <h3>nous localiser</h3>
+            <p>
+              123, Rue de la Scala, <br />
+              45000 - Orléans
+            </p>
+          </div>
+          <div class="footer-item" data-aos="fade-up">
+            <h3>Horaires d'Ouverture</h3>
+            <p>
+              Du Mardi au Dimanche <br />
+              11:00 - 23:00
+            </p>
+          </div>
+          <div class="footer-item" data-aos="fade-up">
+            <h3>nous contacter</h3>
+            <p>555 5555 5555</p>
+            <p>info@gmail.com</p>
+
+            <div class="social-link">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="copyright">&copy; 2022 - Réalisé par Elviredev</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- AOS (Animation On Scroll) Library -->
+    <script src="js/aos.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
