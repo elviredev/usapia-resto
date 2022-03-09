@@ -1,0 +1,24 @@
+{
+  "name": "usapia-resto",
+  "version": "1.0.0",
+  "description": "site web presentant un restaurant-HTML SCSS JS AOS Library",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elviredev/usapia-resto.git"
+  },
+  "author": "elviredev",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/elviredev/usapia-resto/issues"
+  },
+  "homepage": "https://elviredev.github.io/usapia-resto"
+}
