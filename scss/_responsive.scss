@@ -1,0 +1,68 @@
+@media (max-width: 991px) {
+  .testimonials-section .testi-item {
+    width: calc(50% - 30px);
+  }
+
+  .team-section {
+    & .team-item {
+      width: 50%;
+
+      &:not(:last-child) {
+        margin-bottom: 75px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .home-section {
+    & .home-text {
+      & h1 {
+        font-size: 50px;
+        line-height: 65px;
+      }
+    }
+  }
+
+  .about-section .about-text,
+  .about-section .about-img,
+  .menu-section .menu-tab-content .menu-item {
+    width: 100%;
+  }
+
+  .about-section {
+    & .about-img {
+      margin-top: 40px;
+    }
+
+    & .about-text {
+      & h3 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .menu-section .menu-tab-content .menu-item:nth-last-of-type(2)::after {
+    border-bottom: 2px dashed #191f3a;
+  }
+
+  .testimonials-section .testi-item {
+    width: 100%;
+  }
+
+  .footer {
+    & .footer-item {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .team-section .team-item {
+    width: 100%;
+  }
+}
